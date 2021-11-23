@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_221">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/myJSP/workspace/schedule/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/myJSP/workspace/schedule/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/myJSP/workspace/schedule/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/myJSP/workspace/schedule/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/myJSP/workspace/schedule/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/myJSP/workspace/schedule/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/myJSP/workspace/schedule/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-pool.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

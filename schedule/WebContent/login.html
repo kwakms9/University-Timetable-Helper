@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>로그인창</title>
+  <link rel="stylesheet" href="style.css">
+  	<style>
+		h1 { text-align: center; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" >
+	   function vaildData(){
+	      var _id= $("#id").val();
+	      var _pwd= $("#pwd").val();
+	      
+	      if(_id.length==0 ||_id==""){
+	    	  alert("아이디를 입력해 주십시오.");
+	      }else if(_pwd.length==0 ||_pwd==""){
+	    	  alert("비밀번호를 입력해 주십시오.");
+	      }else{
+	    	    return true;
+
+		  }
+	      return false;
+	   }
+	   
+	</script>
+</head>
+<body>
+	<h1>대학 시간표 도우미 </h1>
+   <form name = "login" id="login" action="loginCheck.jsp" method="post" encType="UTF-8" onsubmit="return vaildData()">
+   <table  align="center" >
+   <tr>
+	   <td style="display:flex;">아이디: <input type="text"  id = "id" name="id" style="margin-left:auto;" onKeypress="javascript:if(event.keyCode==13) {return document.getElementById('login').onsubmit();}"/></td>
+	   <td rowspan="2"><button type="submit" style="margin-left:auto;padding:20px 24px;">로그인</button></td>
+	</tr>
+	<tr><td>비밀번호: <input  type="password"   id="pwd" name="pw" onKeypress="javascript:if(event.keyCode==13) {return document.getElementById('login').onsubmit();}" /></td></tr>
+	<tr colspan=2>
+		<td style="display:flex;">
+				
+	    		<button type="reset" value="다시입력" style="margin-left:auto;">다시입력</button>
+	    		<button type="button" style="margin-left:35px" onClick='location.href="signupForm.jsp"'>회원가입</button>
+
+	   </td>
+	</tr>
+	</table>
+   </form> 
+   
+</body>
+</html>
