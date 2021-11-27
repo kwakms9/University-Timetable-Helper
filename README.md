@@ -1,4 +1,4 @@
-# 대학 시간표 작성 도우미(University_Timetable-Helper)
+# 대학 시간표 작성 도우미(University Timetable Helper)
 ## 사용법
 ### 필요사항
 해당 대학으로 생성된 '에브리타임'의 계정이 존재해야한다.(크롤링에 사용)
